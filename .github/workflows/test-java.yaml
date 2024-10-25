@@ -13,4 +13,4 @@ jobs:
           java-version: '22'
           distribution: 'temurin'
       - name: Run the Maven verify phase
-        run: mvn --batch-m:odeest
+        run: mvn --batch-mode test
